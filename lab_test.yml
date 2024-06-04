@@ -8,7 +8,7 @@
 # "Welcome to the Galaxy {{ site_name }} {{ lab_name }}"
 # To make the content more generic and reusable across sites
 site_name: Australia
-lab_name: Genome Lab
+lab_name: Gareths Lab
 nationality: Australian
 galaxy_base_url: https://genome.usegalaxy.org.au  # Use for rendering tool/workflow URLs. Trailing '/' will be removed.
 subdomain: genome
