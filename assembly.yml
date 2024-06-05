@@ -1,20 +1,20 @@
 id: assembly
-title: Genome assembly
+title: Count and Normailisation
 tabs:
   - id: tools
     title: Tools
     heading_html: >
       Common tools are listed here, or search for more in the full tool panel to the left.
     content:
-      - title_html: <code>Hifiasm</code> - assembly with PacBio HiFi data
+      - title_html: <code>RaceID</code> - Initial processing using RaceID
         description_html: >
           <p>
-            A haplotype-resolved assembler for PacBio HiFi reads.
+            Performs filtering, normalisation, and confounder removal to generate a normalised and filtered count matrix of single-cell RNA data.
           </p>
         inputs:
           - datatypes:
-              - fasta
-        button_link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fhifiasm%2Fhifiasm"
+              - count_matrix
+        button_link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fraceid_filtnormconf%2Fraceid_filtnormconf%2F0.2.3+galaxy3"
       - title_html: <code>Flye</code> - assembly with PacBio or Nanopore data
         description_html: >
           <p>
