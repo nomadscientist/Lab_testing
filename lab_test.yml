@@ -15,7 +15,7 @@ subdomain: genome
 root_domain: usegalaxy.org.au
 
 # Custom content relative to this file URL
-header_logo: static/Evil_scientist.jpeg
+header_logo: static/logo_single_cell.svg
 custom_css: static/custom.css
 intro_html: templates/intro.html
 conclusion_html: templates/conclusion.html
