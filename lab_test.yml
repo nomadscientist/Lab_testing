@@ -28,5 +28,5 @@ footer_html: templates/footer.html
 #   2. Full URL to fetch globally centralized content
 sections:
   - data.yml
-  - assembly.yml
+  - count.yml
   - annotation.yml
