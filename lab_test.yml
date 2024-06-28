@@ -28,5 +28,5 @@ footer_html: templates/footer.html
 #   2. Full URL to fetch globally centralized content
 sections:
   - first_section.yml
-  - ignore_content_widget2.yml
-  - ignore_content_widget3.yml
+  - further_analysis.yml
+  - workflows.yml
