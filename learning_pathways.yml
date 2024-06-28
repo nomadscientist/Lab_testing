@@ -4,7 +4,7 @@ tabs:
   - id: pathway
     title: Learning pathways
     heading_html: >
-      Connected tutorials to train you to perform analysis fast!
+      Connected tutorials to train you to perform single-cell analysis fast!
     content:
       - title_html: For first time Galaxy users
         description_html: >
@@ -31,7 +31,6 @@ tabs:
     title: Importing data from different sources
     heading_html: >
       Single-cell data comes in many formats. Here we demystify them and help you retrieve data and interconvert between formats.
-      <a href="https://galaxyproject.org/learn/advanced-workflow/" target="_blank">Learn more.</a>
     content:
       - title_html: Importing files from public atlases
         description_html: >
