@@ -4,8 +4,10 @@ tabs:
   - id: training
     title: Deconvolution
     heading_html: >
+    <p>
        These tutorials infer cell compositions from bulk RNA-seq data using a scRNA-seq reference
        <iframe src=“https://training.galaxyproject.org/training-material/topics/single-cell/#st-deconvo” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>
+    </p>
   - id: help
     title: Help
     content:
