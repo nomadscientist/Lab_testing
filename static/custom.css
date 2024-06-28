@@ -39,32 +39,6 @@ blockquote.tip > h3 button, blockquote.tip > .box-title button {
   border: none;
   cursor: pointer;
 }
-[type="reset"], [type="submit"], button, html [type="button"] {
-  -webkit-appearance: button;
-}
-button, select {
-  text-transform: none;
-}
-button, input {
-  overflow: visible;
-}
-button, input, optgroup, select, textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-blockquote.tip > h3 button, blockquote.tip > .box-title button {
-  cursor: pointer;
-}
-button, select {
-  text-transform: none;
-}
-button, input, optgroup, select, textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
 blockquote.tip > h3, blockquote.tip > .box-title {
   font-size: 18px;
   color: var(--text-color-boxtitle);
