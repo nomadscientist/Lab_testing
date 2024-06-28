@@ -37,7 +37,7 @@ tabs:
       - title_html: Importing files from public atlases
         description_html: >
           <p>
-            Learn how to import data from common public atlases. <br> <br> Tools: <code>nanoplot</code> <code>fastqc</code> <code>multiqc</code>
+            Learn how to import data from common public atlases.
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/EBI-retrieval/tutorial.html"
       - title_html: Importing from NCBI/GEO
@@ -46,7 +46,7 @@ tabs:
             Guides you in importing data from the NCBI/GEO repository, including how to get metadata into your object.
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-ncbi-anndata/tutorial.html"
-  - id: training
+  - id: train
     title: Converting data
     heading_html: >
       Single-cell data comes in many formats. Here we demystify them and help you interconvert between formats.
@@ -95,14 +95,14 @@ tabs:
       - title_html: How can I increase my storage quota?
         description_html: >
           <p>
-            Please submit a quota request if your Galaxy Australia account reaches its data storage limit. Requests are usually provisioned quickly if you provide a reasonable use case for your request.
+            Please submit a quota request if your Galaxy  account reaches its data storage limit. Requests are usually provisioned quickly if you provide a reasonable use case for your request.
           </p>
         button_html: Request
         button_link: /request/quota
-      - title_html: Galaxy Australia support
+      - title_html: Galaxy {{ site_name }} support
         description_html: >
           <p>
-            Any user of Galaxy Australia can request support through an online form.
+            Any user of Galaxy {{ site_name }} can request support through an online form.
           </p>
         button_html: Request support
         button_link: /request/support
