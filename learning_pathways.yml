@@ -39,27 +39,18 @@ tabs:
             Learn how to import data from common public atlases. <br> <br> Tools: <code>nanoplot</code> <code>fastqc</code> <code>multiqc</code>
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/EBI-retrieval/tutorial.html"
-        view_link: https://workflowhub.eu/workflows/222
-        view_tip: View in WorkflowHub
-        button_tip: Import to Galaxy AU
       - title_html: Importing from NCBI/GEO
         description_html: >
           <p>
             Guides you in importing data from the NCBI/GEO repository, including how to get metadata into your object.
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-ncbi-anndata/tutorial.html"
-        view_link: https://workflowhub.eu/workflows/224
-        view_tip: View in WorkflowHub
-        button_tip: Import to Galaxy AU
       - title_html: Converting between formats
         description_html: >
           <p>
             From Seurat to Scanpy, from Matrix to Monocle, find common conversions here!
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-data-ingest/tutorial.html"
-        view_link: https://workflowhub.eu/workflows/224
-        view_tip: View in WorkflowHub
-        button_tip: Import to Galaxy AU
   - id: help
     title: Help
     content:
@@ -77,21 +68,6 @@ tabs:
           </p>
         button_html: More info
         button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
-
-
-
-      - title_html: How can I talk to other single cell analysts in the Galaxy community?
-        description_html: >
-          <p>
-            #Embed this snippet here: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
-          </p>
-        button_html: More info
-        button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
-      - title_html: How can I subsample my data?
-        description_html: >
-          <p>
-            We recommend subsampling large data sets to test tools and workflows. A useful tool is <code>seqtk_seq</code>, setting the parameter at "Sample fraction of sequences".
-          </p>
       - title_html: Can I upload sensitive data?
         description_html: >
           <p>
@@ -112,20 +88,6 @@ tabs:
           </p>
         button_html: Request
         button_link: /request/quota
-      - title_html: "Tutorial: Quality Control"
-        description_html: >
-          <p>
-            Quality control and data cleaning is an essential first step in any NGS analysis. This tutorial will show you how to use and interpret results from <code>FastQC</code>, <code>NanoPlot</code> and <code>PycoQC</code>.
-          </p>
-        button_html: Tutorial
-        button_link: https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html
-      - title_html: "Tutorial: introduction to Genomics and Galaxy"
-        description_html: >
-          <p>
-            This practical aims to familiarize you with the Galaxy user interface. It will teach you how to perform basic tasks such as importing data, running tools, working with histories, creating workflows, and sharing your work.
-          </p>
-        button_html: Tutorial
-        button_link: https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html
       - title_html: Galaxy Australia support
         description_html: >
           <p>
