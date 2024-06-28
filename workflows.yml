@@ -1,7 +1,8 @@
 id: assembly
+## need to find where this is referenced in lab files and change
 title: Run workflows in Galaxy
 tabs:
-  - id: workflows - end to end
+  - id: workflows
     title: End-to-end scRNA-seq Analyses
     heading_html: >
       These tutorials use different methods to analyse scRNA-seq samples.
