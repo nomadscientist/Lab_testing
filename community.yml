@@ -4,9 +4,9 @@ tabs:
   - id: news
     title: News
     heading_html: >
-      This is where we will post Helena's single-cell specific news!
+      "Here you will find news, including events and the latest resources"
     content:
-      - title_html: "Single cell news to be changed"
+      - title_html: "Single cell news"
         description_html: >
           <p>
           News stuff here
