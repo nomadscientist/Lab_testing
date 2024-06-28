@@ -47,10 +47,9 @@ tabs:
          - title_html: About these workflows
            description_html: >
              <p>
-               Push this button to have iframe.
+               Did this work?
              </p>
-
-           button_link: "<iframe src=“https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>"
+           button_link: "<iframe src=“https://training.galaxyproject.org/training-material/topics/single-cell/#st-deconvo” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>"
            view_link: <iframe src=“https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>
            view_tip: Iframe from GTN
            button_tip: End to End from GTN
