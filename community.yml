@@ -6,12 +6,12 @@ tabs:
     heading_html: >
       This is where we will post Helena's single-cell specific news!
     content:
-      - title_html: Single cell news to be changed
+      - title_html: "Single cell news to be changed"
         description_html: >
           <p>
           News stuff here
           </p>
-      - title_html: Training
+      - title_html: "Training"
         description_html: >
           <p>
           These workflows relate specifically to the Galaxy Training Network tutorials.
@@ -20,14 +20,14 @@ tabs:
   - id: events
     title: Events
     content:
-      - title_html: Single cell events
+      - title_html: "Single cell events"
         description_html: >
           <p>
             Any user of Galaxy Australia can request support through an online form.
           </p>
         button_html: Request support
         button_link: /request/support
-      - title_html: Single cell events second in case
+      - title_html: "Single cell events second in case"
         description_html: >
           <p>
             Any user of Galaxy Australia can request support through an online form.
@@ -37,21 +37,21 @@ tabs:
     - id: community
       title: Join our community!
       content:
-        - title_html: Join the community - to be simplified
+        - title_html: "Join the community - to be simplified"
           description_html: >
             <p>
               Here we will explain how the community works
             </p>
           button_html: Request support
           button_link: /request/support
-        - title_html: Infographic on Galaxy governance and link to hub
+        - title_html: "Infographic on Galaxy governance and link to hub"
           description_html: >
             <p>
               Here we will explain how the community works
             </p>
           button_html: Request support
           button_link: /request/support
-        - title_html: Who made all this stuff?
+        - title_html: "Who made all this stuff?"
           description_html: >
             <p>
               Here we will credit everyone!
