@@ -1,4 +1,29 @@
-/* Computed Styles copied from the main.scss of the GTN page */
+/* Button Title */
+button.accordion-button {
+    font-size: 18px;
+    margin-inline-start: -1rem;
+    margin-inline-end: -1rem;
+    margin-top: -3.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    background-color: var(--tip-color);
+    color: var(--text-color-boxtitle);
+    vertical-align: 1em;
+    float: inline-start;
+    border: 1px solid var(--tip-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Button Text, expanded */
+button.accordion-button > p {
+    border: 2px #ffe19e solid;
+    border-radius: 8px 0px 0px 0px;
+    box-shadow: 2px 2px #ffe19e;
+}
+
 blockquote.tip {
   margin-top: 4rem;
   padding: 0.6rem 0.89rem 1rem;
