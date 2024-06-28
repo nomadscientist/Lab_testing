@@ -25,7 +25,7 @@ tabs:
       - title_html: <code>Tool2</code> - tool 2
         description_html: >
           <p>
-            Faster run than FastQC, this tool can also trim reads and filter by quality.
+            Text explaining tool 2.
           </p>
   - id: workflows
     title: Workflows
@@ -33,13 +33,13 @@ tabs:
       A workflow is a series of Galaxy tools that have been linked together to perform a specific analysis. You can use and customize the example workflows below.
       <a href="https://galaxyproject.org/learn/advanced-workflow/" target="_blank">Learn more.</a>
     content:
-      - title_html: Data QC
+      - title_html: Sub-section1
         description_html: >
           <p>
-            Report statistics from sequencing reads. <br> <br> Tools: <code>nanoplot</code> <code>fastqc</code> <code>multiqc</code>
+            Sub-section1. <br> <br> Tools: <code>1st tool</code> <code>2nd tool</code> <code>3rd and more</code>
           </p>
-        button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=222"
-        view_link: https://workflowhub.eu/workflows/222
+      #  button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=222"
+      #  view_link: https://workflowhub.eu/workflows/222
         view_tip: View in WorkflowHub
         button_tip: Import to Galaxy AU
       - title_html: Trim and filter reads
