@@ -1,5 +1,5 @@
-id: assembly
-title: Run GTN Single Cell in Galaxy
+id: intermediate
+title: Single cell training
 tabs:
   - id: workflows
     title: End-to-end scRNA-seq Analyses
