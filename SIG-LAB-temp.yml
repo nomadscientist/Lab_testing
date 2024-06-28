@@ -15,7 +15,7 @@ subdomain: template
 root_domain: usegalaxy.org.au
 
 # Custom content relative to this file URL
-header_logo: static/your-logo-here-placeholder-symbol-vector-25817794.jpeg
+header_logo: static/your-logo-here-placeholder-symbol-vector.png
 custom_css: static/custom.css
 intro_html: templates/intro.html
 conclusion_html: templates/conclusion.html
