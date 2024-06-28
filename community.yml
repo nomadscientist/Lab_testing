@@ -1,0 +1,52 @@
+id: news
+title: Community
+tabs:
+  - id: news
+    title: News
+    heading_html: >
+      This is where we will post Helena's single-cell specific news!
+    content:
+      - title_html: Single cell news to be changed
+        description_html: >
+          <p>
+          News stuff here
+      - title_html: Training
+        description_html: >
+          <p>
+          These workflows relate specifically to the Galaxy Training Network tutorials.
+          <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?all=single-cell+training" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+          </p>
+  - id: events
+    title: Events
+    content:
+      - title_html: Single cell events
+        description_html: >
+          <p>
+            Any user of Galaxy Australia can request support through an online form.
+          </p>
+        button_html: Request support
+        button_link: /request/support
+      - title_html: Single cell events second in case
+        description_html: >
+          <p>
+            Any user of Galaxy Australia can request support through an online form.
+          </p>
+        button_html: Request support
+        button_link: /request/support
+    - id: community
+      title: Join our community!
+      content:
+        - title_html: Join the community - to be simplified
+          description_html: >
+            <p>
+              Here we will explain how the community works
+            </p>
+          button_html: Request support
+          button_link: /request/support
+        - title_html: Infographic on Galaxy governance and link to hub
+          description_html: >
+            <p>
+              Here we will explain how the community works
+            </p>
+          button_html: Request support
+          button_link: /request/support
