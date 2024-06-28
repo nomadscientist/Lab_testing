@@ -57,8 +57,6 @@ tabs:
             From Seurat to Scanpy, from Matrix to Monocle, find common conversions here!
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-data-ingest/tutorial.html"
-      - title_html: []
-        description_html:
   - id: help
     title: Help
     content:
