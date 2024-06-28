@@ -1,5 +1,5 @@
 id: assembly
-title: Count and Normalisation
+title: Run workflows in Galaxy
 tabs:
   - id: tools
     title: Tools
