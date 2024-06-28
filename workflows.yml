@@ -16,7 +16,7 @@ tabs:
                  <p>
                    Push this button to have iframe.
                  </p>
-            
+
                button_link: "<iframe src=“https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>"
                view_link: <iframe src=“https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>
                view_tip: Iframe from GTN
@@ -34,6 +34,9 @@ tabs:
                view_link: https://workflowhub.eu/workflows/221
                view_tip: View in WorkflowHub
                button_tip: Import to Galaxy Australia
+
+#somewhere: put a link to ALL single-cell tutorials and have these all open in Tutorial mode
+
   # - id: assembly
   #   title: Deconvolution
   #   heading_html: >
@@ -49,7 +52,7 @@ tabs:
   #             <p>
   #               Push this button to have iframe.
   #             </p>
-          
+
   #           button_link: "<iframe src=“https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>"
   #           view_link: <iframe src=“https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>
   #           view_tip: Iframe from GTN
@@ -67,7 +70,7 @@ tabs:
   #        #     view_link: https://workflowhub.eu/workflows/221
   #        #     view_tip: View in WorkflowHub
   #        #     button_tip: Import to Galaxy Australia
-          
+
   # - id: help
   #   title: Help
   #   content:
@@ -78,4 +81,3 @@ tabs:
   #         </p>
   #       button_html: Request support
   #       button_link: /request
-    
