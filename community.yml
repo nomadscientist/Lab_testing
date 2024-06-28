@@ -15,7 +15,7 @@ tabs:
         description_html: >
           <p>
           These workflows relate specifically to the Galaxy Training Network tutorials.
-          <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?all=single-cell+training" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+          <iframe width="340px" height="600px" src="/training-material/topics/single-cell/feed.w.xml"></iframe>
           </p>
   - id: events
     title: Events
@@ -23,7 +23,7 @@ tabs:
       - title_html: "Single cell events"
         description_html: >
           <p>
-            Any user of Galaxy Australia can request support through an online form.
+            <iframe width="340px" height="600px" src="/training-material/feeds/single-cell-month.w.xml"></iframe>
           </p>
         button_html: Request support
         button_link: /request/support
