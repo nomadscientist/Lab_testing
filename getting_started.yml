@@ -56,14 +56,14 @@ tabs:
       - title_html: How can I talk to other single cell analysts in the Galaxy community?
         description_html: >
           <p>
-            #Embed this snippet here: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
+            Embed this snippet here: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
           </p>
         button_html: More info
         button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
       - title_html: How can I troubleshoot?
         description_html: >
           <p>
-            #Embed this snippet here: https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_troubleshooting.html#troubleshooting-errors
+            Embed this snippet here: https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_troubleshooting.html#troubleshooting-errors
           </p>
         button_html: More info
         button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
