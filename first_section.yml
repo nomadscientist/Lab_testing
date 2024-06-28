@@ -1,27 +1,22 @@
 id: data
 title: Data import and preparation
 tabs:
-  - id: tools
-    title: Tools
+  - id: tutorials
+    title: Tutorials
     heading_html: >
-      Common tools are listed here, or search for more in the full tool panel to the left.
+      Are you new to Galaxy?
     content:
-      - title_html: Import data to Galaxy
+      - title_html: Learn to use Galaxy
         description_html: >
           <p>
-            Standard upload of data to Galaxy, from your computer or from the web.
+            Here we will link the Introduction to Galaxy tutorials.
           </p>
         button_link: "{{ galaxy_base_url }}/tool_runner?tool_id=upload1"
-      - title_html: <code>FastQC</code> - sequence quality reports
+      - title_html: <code>A short introduction to Galaxy</code> - sequence quality reports
         description_html: >
           <p>
-            Before using your sequencing data, it's important first ensure that the data quality is sufficient for your analysis.
+            This tutorial takes less than an hour and tells you what you need to know to start analysing data with Galaxy.
           </p>
-        inputs:
-          - datatypes:
-              - fastq
-              - bam
-              - sam
         button_link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc"
       - title_html: <code>FastP</code> - sequence quality reports, trimming & filtering
         description_html: >
