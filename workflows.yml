@@ -1,11 +1,11 @@
 id: assembly
 title: Run workflows in Galaxy
 tabs:
-  - id: workflows
-    title: Workflows
+  - id: workflows - end to end
+    title: End-to-end scRNA-seq Analyses
     heading_html: >
-      A workflow is a series of Galaxy tools that have been linked together to perform a specific analysis. You can use and customize the example workflows below.
-      <a href="https://galaxyproject.org/learn/advanced-workflow/" target="_blank">Learn more.</a>
+      These tutorials use different methods to analyse scRNA-seq samples.
+      <a href="https://training.galaxyproject.org/training-material/topics/single-cell/#st-end-to-end/" target="_blank">Learn more.</a>
     content:
       subsections:
         - id: pacbio
