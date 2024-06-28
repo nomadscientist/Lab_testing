@@ -35,7 +35,7 @@ tabs:
          #     view_link: https://workflowhub.eu/workflows/221
          #     view_tip: View in WorkflowHub
          #     button_tip: Import to Galaxy Australia
-- id: workflows
+- id: workflow2
     title: Deconvolution
     heading_html: >These tutorials infer cell compositions from bulk RNA-seq data using a scRNA-seq reference
       These tutorials use different methods to analyse scRNA-seq samples.
