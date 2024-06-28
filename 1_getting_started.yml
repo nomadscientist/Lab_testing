@@ -79,6 +79,8 @@ tabs:
           <p>
             <i class="fa fa-question-circle-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)\
           </p>
+        button_html: Help forum
+        button_link: https://help.galaxyproject.org/tag/scrna
       - title_html: Can I upload sensitive data?
         description_html: >
           <p>
