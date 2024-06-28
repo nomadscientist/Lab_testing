@@ -1,5 +1,5 @@
 id: section
-title: Section 1
+title: 3 menu section
 tabs:
   - id: tools
     title: Tools
@@ -40,7 +40,7 @@ tabs:
   - id: help
     title: Help
     content:
-      - title_html: How can I my analysis in Galaxy?
+      - title_html: How can I do my analysis in Galaxy?
         description_html: >
           <p>
             You do analysis by the following X, Y and Z.
