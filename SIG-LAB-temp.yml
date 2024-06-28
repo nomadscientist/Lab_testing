@@ -7,15 +7,15 @@
 # Use these variables in HTML templates like:
 # "Welcome to the Galaxy {{ site_name }} {{ lab_name }}"
 # To make the content more generic and reusable across sites
-site_name: Australia
-lab_name: Wendi and Gareth take over Galaxy Labs
-nationality: Australian
+site_name: Galaxy CoDex
+lab_name: Galaxy Community Hub - Special Interest Groups - Galaxy Lab Template
+nationality: Global
 galaxy_base_url: https://genome.usegalaxy.org.au  # Use for rendering tool/workflow URLs. Trailing '/' will be removed.
-subdomain: genome
+subdomain: template
 root_domain: usegalaxy.org.au
 
 # Custom content relative to this file URL
-header_logo: static/logo_single_cell.svg
+header_logo: static/put_logo_here.jpeg
 custom_css: static/custom.css
 intro_html: templates/intro.html
 conclusion_html: templates/conclusion.html
@@ -27,6 +27,6 @@ footer_html: templates/footer.html
 #   1. Relative to this file URL
 #   2. Full URL to fetch globally centralized content
 sections:
-  - data.yml
-  - count.yml
-  - annotation.yml
+  - section1.yml
+  - section2.yml
+  - section3.yml
