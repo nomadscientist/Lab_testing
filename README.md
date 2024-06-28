@@ -1,2 +1,3 @@
-# Lab_testing
-Testing of configurations of Galaxy Lab yamls
+# SIG Lab Template
+Template for Galaxy Community SIGs Lab building.
+Intended to be served live
