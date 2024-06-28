@@ -26,7 +26,5 @@ footer_html: templates/footer.html
 # Either:
 #   1. Relative to this file URL
 #   2. Full URL to fetch globally centralized content
-#sections:
-#  - data.yml
-#  - count.yml
-#  - annotation.yml
+sections:
+  - first_section.yml
