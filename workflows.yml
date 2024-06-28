@@ -37,7 +37,8 @@ tabs:
          #     button_tip: Import to Galaxy Australia
   - id: assembly
     title: Deconvolution
-    heading_html: >These tutorials infer cell compositions from bulk RNA-seq data using a scRNA-seq reference
+    heading_html: >
+      These tutorials infer cell compositions from bulk RNA-seq data using a scRNA-seq reference
       These tutorials use different methods to analyse scRNA-seq samples.
       <a href="https://training.galaxyproject.org/training-material/topics/single-cell/#st-end-to-end/" target="_blank">Learn more.</a>
     content:
