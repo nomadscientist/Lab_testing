@@ -1,8 +1,8 @@
 id: section2
 title: Simple section
 tabs:
-  - id: tools
-    title: Tools
+  - id: section2
+    title: Simple
     heading_html: >
       Text goes here.
     content:
@@ -12,42 +12,4 @@ tabs:
                   This <a href="https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly" target="_blank"> How-to-Guide </a> will describe the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows.
                 </p>     
   
-  - id: help
-    title: Help
-    content:
-      - title_html: Can I use Galaxy Australia to assemble a large genome?
-        description_html: >
-          <p>
-            Yes. Galaxy Australia has assembly tools for small prokaryote genomes as well as larger eukaryote genomes. We are continually adding new tools and optimising them for large genome assemblies - this means adding enough computer processing power to run data-intensive tools, as well as configuring aspects such as parallelisation.
-          </p>
-          <p>
-            Please contact us if:
-          </p>
-          <ul>
-            <li>you need to increase your data storage limit</li>
-            <li>there is a tool you wish to request</li>
-            <li>a tool appears to be broken or running slowly</li>
-          </ul>
-        button_html: Request support
-        button_link: /request
-      - title_html: How can I learn about genome assembly?
-        description_html: >
-          <ul>
-            <li>See the tutorials in this Help section. They cover different approaches to genome assembly.</li>
-            <li>Read the methods in scientific papers about genome assembly, particularly those about genomes with similar characteristics to those in your project</li>
-            <li>See the Workflows section for examples of different approaches to genome assembly - these cover different sequencing data types, and a variety of tools.</li>
-          </ul>
-      - title_html: How can I assess the quality of my genome assembly?
-        description_html: >
-          <p>
-            Once a genome has been assembled, it is important to assess the quality of the assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here.
-          </p>
-        button_html: Workflow tutorial
-        button_link: https://australianbiocommons.github.io/how-to-guides/genome_assembly/assembly_qc
-      - title_html: Galaxy Australia support
-        description_html: >
-          <p>
-            Any user of Galaxy Australia can request support through an online form.
-          </p>
-        button_html: Request support
-        button_link: /request/support
+  
