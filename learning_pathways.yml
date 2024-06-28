@@ -30,37 +30,63 @@ tabs:
   - id: training
     title: Importing data from different sources
     heading_html: >
-      How can you import and reformat data from different sources?
+      Single-cell data comes in many formats. Here we demystify them and help you retrieve data and interconvert between formats.
       <a href="https://galaxyproject.org/learn/advanced-workflow/" target="_blank">Learn more.</a>
     content:
-      - title_html: Data QC
+      - title_html: Importing files from public atlases
         description_html: >
           <p>
-            Report statistics from sequencing reads. <br> <br> Tools: <code>nanoplot</code> <code>fastqc</code> <code>multiqc</code>
+            Learn how to import data from common public atlases. <br> <br> Tools: <code>nanoplot</code> <code>fastqc</code> <code>multiqc</code>
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/EBI-retrieval/tutorial.html"
         view_link: https://workflowhub.eu/workflows/222
         view_tip: View in WorkflowHub
         button_tip: Import to Galaxy AU
-      - title_html: Trim and filter reads
+      - title_html: Importing from NCBI/GEO
         description_html: >
           <p>
-            Trims and filters raw sequence reads according to specified settings. <br> <br> Tools: <code>fastp</code>
+            Guides you in importing data from the NCBI/GEO repository, including how to get metadata into your object.
           </p>
-        button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=224"
+        button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-ncbi-anndata/tutorial.html"
+        view_link: https://workflowhub.eu/workflows/224
+        view_tip: View in WorkflowHub
+        button_tip: Import to Galaxy AU
+      - title_html: Converting between formats
+        description_html: >
+          <p>
+            From Seurat to Scanpy, from Matrix to Monocle, find common conversions here!
+          </p>
+        button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-data-ingest/tutorial.html"
         view_link: https://workflowhub.eu/workflows/224
         view_tip: View in WorkflowHub
         button_tip: Import to Galaxy AU
   - id: help
     title: Help
     content:
-      - title_html: How can I import my Single Cell data?
+      - title_html: How can I talk to other single cell analysts in the Galaxy community?
         description_html: >
           <p>
-            You can upload your data to Galaxy using the Upload tool from anywhere in Galaxy. Just look for the "Upload data" button at the top of the tool panel.
+            #Embed this snippet here: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
           </p>
         button_html: More info
-        button_link: https://training.galaxyproject.org/training-material/topics/galaxy-interface/
+        button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
+      - title_html: How can I troubleshoot?
+        description_html: >
+          <p>
+            #Embed this snippet here: https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_troubleshooting.html#troubleshooting-errors
+          </p>
+        button_html: More info
+        button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
+
+
+
+      - title_html: How can I talk to other single cell analysts in the Galaxy community?
+        description_html: >
+          <p>
+            #Embed this snippet here: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
+          </p>
+        button_html: More info
+        button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
       - title_html: How can I subsample my data?
         description_html: >
           <p>
