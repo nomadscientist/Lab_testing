@@ -15,7 +15,7 @@ tabs:
             - title_html: About these workflows
               description_html: >
                 <p>
-                  This <a href="https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly" target="_blank"> How-to-Guide </a> will describe the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows.
+                  Push this button to have iframe.
                 </p>
             
               button_link: "<iframe src=“https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>"
