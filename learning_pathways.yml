@@ -4,15 +4,24 @@ tabs:
   - id: pathway
     title: Learning pathways
     heading_html: >
-      Learning pathways
+      Connected tutorials to train you to perform analysis fast!
     content:
-      - title_html: From first time user to single-cell RNA-seq analyst
+      - title_html: For first time Galaxy users
         description_html: >
           <p>
             Follow this learning pathway to learn how to use Galaxy and how to do single-cell RNA-seq analysis.
           </p>
         button_link: "https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html"
-      - title_html: From tutorials to real data analysis
+      - title_html: For experienced Galaxy users
+        description_html: >
+          <p>
+            Follow this learning pathway to learn how to make analytical decisions in performing single-cell RNA-seq analysis and interpreting the data.
+          </p>
+        button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-intro/slides.html"
+        button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-trajectories/slides.html"
+        button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.html"
+        button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
+      - title_html: From tutorial data to real, messy, analytical decision-making
         description_html: >
           <p>
             Follow this learning pathway to learn how to make analytical decisions in performing single-cell RNA-seq analysis and interpreting the data.
@@ -29,7 +38,7 @@ tabs:
           <p>
             Report statistics from sequencing reads. <br> <br> Tools: <code>nanoplot</code> <code>fastqc</code> <code>multiqc</code>
           </p>
-        button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=222"
+        button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/EBI-retrieval/tutorial.html"
         view_link: https://workflowhub.eu/workflows/222
         view_tip: View in WorkflowHub
         button_tip: Import to Galaxy AU
