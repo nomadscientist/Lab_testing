@@ -6,7 +6,11 @@ tabs:
     heading_html: >
       Text goes here.
     content:
-   
+               - title_html: Putting one back
+              description_html: >
+                <p>
+                  This <a href="https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly" target="_blank"> How-to-Guide </a> will describe the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows.
+                </p>
   - id: workflows
     title: Workflows
     heading_html: >
