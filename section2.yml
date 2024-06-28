@@ -6,7 +6,7 @@ tabs:
     heading_html: >
       Introduction text goes here.
     content:
-         - title_html: Simple explaination
+         - title_html: Simple explanation
            description_html: >
                 <p>
                   This is text, button, tool link, URL or widget.
