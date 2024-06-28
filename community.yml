@@ -35,7 +35,7 @@ tabs:
         button_html: Request support
         button_link: /request/support
   - id: community
-      title: Join our community!
+      title: Community
       content:
         - title_html: "Join the community - to be simplified"
           description_html: >
