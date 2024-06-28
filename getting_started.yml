@@ -26,13 +26,13 @@ tabs:
       - title_html: From tutorial data to real, messy, analytical decision-making
         description_html: >
           <p>
-            Follow this learning pathway to learn how to make analytical decisions in performing single-cell RNA-seq analysis and interpreting the data.
+            Analysing real data
           </p>
         button_link: "https://training.galaxyproject.org/training-material/learning-pathways/beyond_single_cell.html"
   - id: training
-    title: Importing data from different sources
+    title: Importing public data
     heading_html: >
-      Single-cell data comes in many formats. Here we demystify them and help you retrieve data and interconvert between formats.
+      Using public data is free! Learn how to retrieve data from common sources.
     content:
       - title_html: Importing files from public atlases
         description_html: >
@@ -46,12 +46,19 @@ tabs:
             Guides you in importing data from the NCBI/GEO repository, including how to get metadata into your object.
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-ncbi-anndata/tutorial.html"
+  - id: training
+    title: Converting data
+    heading_html: >
+      Single-cell data comes in many formats. Here we demystify them and help you interconvert between formats.
+    content:
       - title_html: Converting between formats
         description_html: >
           <p>
             From Seurat to Scanpy, from Matrix to Monocle, find common conversions here!
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-data-ingest/tutorial.html"
+      - title_html: []
+        description_html:
   - id: help
     title: Help
     content:
