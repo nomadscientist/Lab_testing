@@ -28,7 +28,7 @@ footer_html: templates/footer.html
 #   1. Relative to this file URL
 #   2. Full URL to fetch globally centralized content
 sections:
-  - getting_started.yml
+  - 1_getting_started.yml
   - further_analysis.yml
   - workflows.yml
   - community.yml
