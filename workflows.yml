@@ -69,14 +69,14 @@ tabs:
   #        #     view_tip: View in WorkflowHub
   #        #     button_tip: Import to Galaxy Australia
           
-  - id: help
-    title: Help
-    content:
-      - title_html: Text for Single Cell
-        description_html: >
-          <p>
-            More text for Single Cell.
-          </p>
-        button_html: Request support
-        button_link: /request
+  # - id: help
+  #   title: Help
+  #   content:
+  #     - title_html: Text for Single Cell
+  #       description_html: >
+  #         <p>
+  #           More text for Single Cell.
+  #         </p>
+  #       button_html: Request support
+  #       button_link: /request
     
