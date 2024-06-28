@@ -1,5 +1,5 @@
 id: data
-title: Learn how to use Galaxy for single-cell RNA-seq analysis
+title: Learn to use Galaxy for single-cell RNA-seq analysis
 tabs:
   - id: pathway
     title: Learning pathways
@@ -18,7 +18,9 @@ tabs:
             Follow this learning pathway to learn how to make analytical decisions in performing single-cell RNA-seq analysis and interpreting the data.
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-intro/slides.html"
+        button_html: "Introductory slides"
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-trajectories/slides.html"
+        button_html: "Trajectories slides"
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.html"
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
       - title_html: From tutorial data to real, messy, analytical decision-making
