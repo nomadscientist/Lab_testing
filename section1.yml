@@ -1,10 +1,10 @@
-id: data
-title: Data import and preparation
+id: section
+title: Section 1
 tabs:
   - id: tools
     title: Tools
     heading_html: >
-      Common tools are listed here, or search for more in the full tool panel to the left.
+      Common tools are listed here, or can be search for more in the full tool panel to the left.
     content:
       - title_html: Import data to Galaxy
         description_html: >
@@ -12,18 +12,17 @@ tabs:
             Standard upload of data to Galaxy, from your computer or from the web.
           </p>
         button_link: "{{ galaxy_base_url }}/tool_runner?tool_id=upload1"
-      - title_html: <code>FastQC</code> - sequence quality reports
+      - title_html: <code>Tool1</code> - tool 1
         description_html: >
           <p>
-            Before using your sequencing data, it's important first ensure that the data quality is sufficient for your analysis.
+            Text explaining tool 1.
           </p>
         inputs:
           - datatypes:
-              - fastq
-              - bam
-              - sam
-        button_link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc"
-      - title_html: <code>FastP</code> - sequence quality reports, trimming & filtering
+              - example1
+              - example2
+      #  button_link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc"
+      - title_html: <code>Tool2</code> - tool 2
         description_html: >
           <p>
             Faster run than FastQC, this tool can also trim reads and filter by quality.
