@@ -1,7 +1,7 @@
 id: assembly
 ## need to find where this is referenced in lab files and change
 title: Run GTN Single Cell in Galaxy
-tabs:
+# tabs:
   # - id: workflows
   #   title: End-to-end scRNA-seq Analyses
   #   heading_html: >
