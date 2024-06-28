@@ -9,25 +9,17 @@ tabs:
       <a href="https://training.galaxyproject.org/training-material/topics/single-cell/#st-end-to-end/" target="_blank">Learn more.</a>
     content:
       subsections:
-        - id: pacbio
-          title: Assembly with PacBio HiFi data
+        - id: E2E
+          title: End to End
           content:
             - title_html: About these workflows
               description_html: >
                 <p>
                   This <a href="https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly" target="_blank"> How-to-Guide </a> will describe the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows.
                 </p>
-            - title_html: BAM to FASTQ + QC v1.0
-              description_html: >
-                <p>
-                  Convert a BAM file to FASTQ format to perform QC analysis (required if your data is in BAM format).
-                </p>
-              inputs:
-                - datatypes:
-                    - bam
-                  label: PacBio <em>subreads.bam</em>
+            
               button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=220"
-              view_link: https://workflowhub.eu/workflows/220
+              view_link: <iframe src=“https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell” height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>
               view_tip: View in WorkflowHub
               button_tip: Import to Galaxy Australia
             - title_html: PacBio HiFi genome assembly using hifiasm v2.1
