@@ -35,119 +35,15 @@ tabs:
               view_link: https://workflowhub.eu/workflows/221
               view_tip: View in WorkflowHub
               button_tip: Import to Galaxy Australia
-            - title_html: Purge duplicates from hifiasm assembly v1.0
-              description_html: >
-                <p>
-                  Optional workflow to purge duplicates from the contig assembly.
-                </p>
-              inputs:
-                - datatypes:
-                    - fastqsanger
-                  label: HiFi reads
-                - datatypes:
-                    - fasta
-                  label: Primary assembly contigs
-              button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=237"
-              view_link: https://workflowhub.eu/workflows/237
-              view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
-            - title_html: Genome assessment post-assembly
-              description_html: >
-                <p>
-                  Evaluate the quality of your genome assembly with a comprehensive report including <code>FASTA stats</code>, <code>BUSCO</code>, <code>QUAST</code>, <code>Meryl</code> and <code>Merqury</code>.
-                </p>
-              inputs:
-                - datatypes:
-                    - fasta
-                  label: Primary assembly contigs
-              button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=403"
-              view_link: https://workflowhub.eu/workflows/403
-              view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
-        
+          
   - id: help
     title: Help
     content:
-      - title_html: Can I use Galaxy Australia to assemble a large genome?
+      - title_html: Text for Single Cell
         description_html: >
           <p>
-            Yes. Galaxy Australia has assembly tools for small prokaryote genomes as well as larger eukaryote genomes. We are continually adding new tools and optimising them for large genome assemblies - this means adding enough computer processing power to run data-intensive tools, as well as configuring aspects such as parallelisation.
+            More text for Single Cell.
           </p>
-          <p>
-            Please contact us if:
-          </p>
-          <ul>
-            <li>you need to increase your data storage limit</li>
-            <li>there is a tool you wish to request</li>
-            <li>a tool appears to be broken or running slowly</li>
-          </ul>
         button_html: Request support
         button_link: /request
-      - title_html: How can I learn about genome assembly?
-        description_html: >
-          <ul>
-            <li>See the tutorials in this Help section. They cover different approaches to genome assembly.</li>
-            <li>Read the methods in scientific papers about genome assembly, particularly those about genomes with similar characteristics to those in your project</li>
-            <li>See the Workflows section for examples of different approaches to genome assembly - these cover different sequencing data types, and a variety of tools.</li>
-          </ul>
-      - title_html: Genome assembly overview
-        description_html: >
-          <p>
-            Genome assembly can be a very involved process. A typical genome assembly procedure might look like:
-          </p>
-          <ul>
-            <li>Data QC - check the quality and characteristics of your sequencing reads.</li>
-            <li>Kmer counting - to determine genome characteristics such as ploidy and size.</li>
-            <li>Data preparation - trimming and filtering sequencing reads if required.</li>
-            <li>Assembly - for large genomes, this is usually done with long sequencing reads from PacBio or Nanopore.</li>
-            <li>Polishing - the assembly may be polished (corrected) with long and/or short (Illumina) reads.</li>
-            <li>Scaffolding - the assembly contigs may be joined together with other sequencing data such as HiC.</li>
-            <li>Assessment - at any stage, the assembly can be assessed for number of contigs, number of base pairs, whether expected genes are present, and many other metrics.</li>
-            <li>Annotation - identify features on the genome assembly such as gene names and locations.</li>
-          </ul>
-          <img class="img-fluid" src="/static/home/labs/genome/static/assembly-overview.png" alt="Genome assembly flowchart">
-          <p class="text-center">
-            A graphical representation of genome assembly
-          </p>
-      - title_html: Which tools should I use?
-        description_html: >
-          <p>
-            There is no best set of tools to recommend - new tools are developed constantly, sequencing technology improves rapidly, and many genomes have never been sequenced before and thus their characteristics and quirks are unknown. The "Tools" tab in this section includes a list of commonly-used tools that could be a good starting point. You will find other tools in recent publications or used in workflows.
-          </p>
-          <p>
-            You can also search for tools in Galaxy's tool panel. If they aren't installed on Galaxy Australia, you can <a href="/request/tool">request installation</a> of a tool.
-          </p>
-          <p>
-            We recommend testing a tool on a small data set first and seeing if the results make sense, before running on your full data set.
-          </p>
-      - title_html: Tutorials
-        description_html: >
-          <p>
-            Find 15+ Galaxy training tutorials <a href="https://training.galaxyproject.org/training-material/topics/assembly/" target="_blank">here</a>.
-          </p>
-          <p>
-            <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/get-started-genome-assembly/slides.html#1" target="_blank"> Introduction to genome assembly and annotation (slides) </a>
-          </p>
-          <p>
-            <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html" target="_blank"> Vertebrate genome assembly pipeline (tutorial) </a>
-          </p>
-          <p>
-            <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/largegenome/tutorial.html" target="_blank"> Nanopore and illumina genome assembly (tutorial) </a>
-          </p>
-          <p>
-            <a href="https://gxy.io/GTN:T00165" target="_blank"> Share workflows and results with workflow reports (tutorial) </a>
-          </p>
-      - title_html: How can I assess the quality of my genome assembly?
-        description_html: >
-          <p>
-            Once a genome has been assembled, it is important to assess the quality of the assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here.
-          </p>
-        button_html: Workflow tutorial
-        button_link: https://australianbiocommons.github.io/how-to-guides/genome_assembly/assembly_qc
-      - title_html: Galaxy Australia support
-        description_html: >
-          <p>
-            Any user of Galaxy Australia can request support through an online form.
-          </p>
-        button_html: Request support
-        button_link: /request/support
+    
