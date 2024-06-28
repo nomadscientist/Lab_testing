@@ -67,6 +67,11 @@ tabs:
           </p>
         button_html: More info
         button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
+      - title_html: Is there a help forum?
+        description_html: >
+          <p>
+            <i class="fa fa-question-circle-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)\
+          </p>
       - title_html: Can I upload sensitive data?
         description_html: >
           <p>
