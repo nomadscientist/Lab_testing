@@ -8,15 +8,15 @@ tabs:
     content:
       - title_html: For first time Galaxy users
         description_html: >
-        <p>
+          <p>
             Follow this learning pathway to learn how to use Galaxy and how to do single-cell RNA-seq analysis.
-        </p>
+            </p>
         button_link: "https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html"
       - title_html: For experienced Galaxy users
         description_html: >
-        <p>
+          <p>
             Follow this learning pathway to learn how to make analytical decisions in performing single-cell RNA-seq analysis and interpreting the data.
-        </p>
+            </p>
         button_link1: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-intro/slides.html"
         button_html1: "Introductory slides"
         button_link2: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-trajectories/slides.html"
