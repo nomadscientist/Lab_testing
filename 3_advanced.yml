@@ -2,7 +2,7 @@ id: advanced
 title: Community workflows
 tabs:
   - id: workflows
-    title: Tools
+    title: Workflow Best Practices
     heading_html: >
       [Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#single-cell** and share publicly with other users!
          {: .alert.alert-success}
@@ -15,6 +15,17 @@ tabs:
              - training (for workflows that correspond to the Galaxy Training Network's tutorials)
              - data interoperability
              - deconvolution
+          </p>
+      - title_html: Workflow best practice training
+        description_html: >
+          <p>
+          This will have links to training on workflow best practices
+          </p>
+  - id: workflows
+    title: Peer reviewed workflows
+    heading_html: >
+      You can see shared workflows below, which are chains of tools that can be run together at the click of a button.
+    content:
       - title_html: Training
         description_html: >
           <p>
@@ -24,15 +35,14 @@ tabs:
       - title_html: Peer reviewed workflows
         description_html: >
           <p>
-          WorkflowHub and IWC are labels given to peer-reviewed workflows.
+          WorkflowHub and IWC are labels given to peer-reviewed workflows. PLACEHOLDER need search to include both.
           <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?all=single-cell+training" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
           </p>
-      - title_html: Intergalactic Workflow Commission
-        description_html: >
-          <p>
-          We of the Galaxy community think we're hilarious by naming everything we do space-themed. The Intergalactic Workflow Commission (IWC) have high-quality workflows which you can use. You can import what you like!
-          <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?all=single-cell+training" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
-          </p>
+  - id: workflows
+    title: Community workflows
+    heading_html: >
+      You can see shared workflows below, which are chains of tools that can be run together at the click of a button.
+    content:
       - title_html: Workflow search
         description_html: >
           <p>
@@ -43,7 +53,7 @@ tabs:
   - id: help
     title: Help
     content:
-      - title_html: Galaxy Australia support
+      - title_html: Galaxy {{ site_name }} support
         description_html: >
           <p>
             Any user of Galaxy Australia can request support through an online form.
