@@ -39,9 +39,9 @@ tabs:
     content:
       - title_html: "Join the community - to be simplified"
         description_html: >
-          <p>
+        <p>
             Here we will explain how the community works
-          </p>
+        </p>
         button_html: Request support
         button_link: /request/support
       - title_html: "Infographic on Galaxy governance and link to hub"
