@@ -79,18 +79,18 @@ tabs:
     - title_html: About these workflows
       description_html: >
          <p>
-         <iframe src="https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.html#tip-creating-a-new-history" height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>"
+         hello! Mehmet working here
          </p>
-         button_link: "<iframe src="https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.html#tip-creating-a-new-history" height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>""
-         view_link:
-         view_tip: Iframe from GTN
-         button_tip: End to End from GTN
-     - title_html: Spare space for another GTN
-           description_html: >
-             <p>
-               More GTN.
-             </p>
-           inputs:
+      button_link: "<iframe src="https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.html#tip-creating-a-new-history" height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>""
+      view_link: "<iframe src="https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.html#tip-creating-a-new-history" height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>""
+      view_tip: Iframe from GTN
+      button_tip: End to End from GTN
+    - title_html: Spare space for another GTN
+      description_html: >
+         <p>
+           More GTN.
+         </p>
+      inputs:
              - datatypes:
                  - data
                label: data
