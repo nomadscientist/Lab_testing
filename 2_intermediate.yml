@@ -73,16 +73,13 @@ tabs:
        These tutorials use different methods to analyse scRNA-seq samples.
        <a href="https://training.galaxyproject.org/training-material/topics/single-cell/#st-end-to-end/" target="_blank">Learn more.</a>
     content:
-      # - id: Deconvolution
-      #   title: Deconvolution
-      #   content:
       - title_html: About these workflows
         description_html: >
           <p>
           hello! Mehmet working here
           </p>
-        button_link: "<iframe src="https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.html#tip-creating-a-new-history" height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>""
-        view_link: "<iframe src="https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.html#tip-creating-a-new-history" height=“600px” width=“100%” class=“gtn-embed” frameborder=“0”></iframe>""
+        button_link: "<iframe src='https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.html#tip-creating-a-new-history' height='600px' width='100%' class='gtn-embed' frameborder='0'></iframe>"
+        view_link: "<iframe src='https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.html#tip-creating-a-new-history' height='600px' width='100%' class='gtn-embed' frameborder='0'></iframe>"
         view_tip: Iframe from GTN
         button_tip: End to End from GTN
       - title_html: Spare space for another GTN
@@ -98,16 +95,16 @@ tabs:
         #     view_link: https://workflowhub.eu/workflows/221
         #     view_tip: View in WorkflowHub
         #     button_tip: Import to Galaxy Australia
-- id: training
-  title: Further training
-  content:
-    - title_html: Single cell training
-      description_html: >
-        <p>
-          You can find all Galaxy single-cell training in our training page.
-        </p>
-      button_html: Training Page
-      button_link: https://training.galaxyproject.org/training-material/topics/single-cell/
+  - id: training
+    title: Further training
+    content:
+      - title_html: Single cell training
+        description_html: >
+          <p>
+            You can find all Galaxy single-cell training in our training page.
+          </p>
+        button_html: Training Page
+        button_link: https://training.galaxyproject.org/training-material/topics/single-cell/
   - id: help
     title: Help
     content:
