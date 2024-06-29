@@ -96,7 +96,7 @@ tabs:
         #     view_tip: View in WorkflowHub
         #     button_tip: Import to Galaxy Australia
   - id: training
-    title: Further training
+    title: All training
     content:
       - title_html: Single cell training
         description_html: >
