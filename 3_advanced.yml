@@ -12,6 +12,9 @@ tabs:
              - training (for workflows that correspond to the Galaxy Training Network's tutorials)
              - data interoperability
              - deconvolution
+                                [Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#single-cell** and share publicly with other users!
+                                   {: .alert.alert-success}
+                                You can see shared workflows below, which are chains of tools that can be run together at the click of a button.
           </p>
       - title_html: Workflow best practice training
         description_html: >
