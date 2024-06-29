@@ -21,10 +21,10 @@ tabs:
           These workflows relate specifically to the Galaxy Training Network tutorials.
           <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?all=single-cell+training" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
           </p>
-      - title_html: WorkflowHub
+      - title_html: Peer reviewed workflows
         description_html: >
           <p>
-          WorkflowHub is a well-regarded repository of high-quality workflows. Import relevant workflows for you!
+          WorkflowHub and the IWC are two initiatives to requiring 'Best practices' in workflow development. You can see their workflows here.
           <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?all=single-cell+training" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
           </p>
       - title_html: Intergalactic Workflow Commission
