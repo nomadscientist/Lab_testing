@@ -24,7 +24,7 @@ tabs:
       - title_html: Peer reviewed workflows
         description_html: >
           <p>
-          WorkflowHub and the IWC are two initiatives to requiring 'Best practices' in workflow development. You can see their workflows here.
+          WorkflowHub and IWC are labels given to peer-reviewed workflows.
           <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?all=single-cell+training" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
           </p>
       - title_html: Intergalactic Workflow Commission
