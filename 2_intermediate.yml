@@ -99,13 +99,30 @@ tabs:
         #     view_link: https://workflowhub.eu/workflows/221
         #     view_tip: View in WorkflowHub
         #     button_tip: Import to Galaxy Australia
+- id: training
+  title: Further training
+  content:
+    - title_html: Single cell training
+      description_html: >
+        <p>
+          You can find all Galaxy single-cell training in our training page.
+        </p>
+      button_html: Training Page
+      button_link: https://training.galaxyproject.org/training-material/topics/single-cell/
   - id: help
     title: Help
     content:
-      - title_html: Text for Single Cell
+      - title_html: How can I talk to other single cell analysts in the Galaxy community?
         description_html: >
           <p>
-            More text for Single Cell.
+            Embed this snippet here: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
           </p>
-        button_html: Request support
-        button_link: /request
+        button_html: More info
+        button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
+      - title_html: How can I troubleshoot?
+        description_html: >
+          <p>
+            Embed this snippet here: https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_troubleshooting.html#troubleshooting-errors
+          </p>
+        button_html: More info
+        button_link: https://training.galaxyproject.org/training-material/topics/single-cell/faqs/#tip-how-can-i-talk-with-other-users
