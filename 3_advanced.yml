@@ -1,7 +1,7 @@
 id: advanced
 title: Community workflows
 tabs:
-  - id: workflows
+  - id: workflows1
     title: Workflow Best Practices
     heading_html: >
     content:
@@ -21,7 +21,7 @@ tabs:
           <p>
           This will have links to training on workflow best practices
           </p>
-  - id: workflows
+  - id: workflows2
     title: Peer reviewed workflows
     heading_html: >
       You can see shared workflows below, which are chains of tools that can be run together at the click of a button.
@@ -38,7 +38,7 @@ tabs:
           WorkflowHub and IWC are labels given to peer-reviewed workflows. PLACEHOLDER need search to include both.
           <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?all=single-cell+training" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
           </p>
-  - id: workflows
+  - id: workflows3
     title: Community workflows
     heading_html: >
       You can see shared workflows below, which are chains of tools that can be run together at the click of a button.
