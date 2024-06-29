@@ -3,14 +3,14 @@ title: Community workflows
 tabs:
   - id: workflows
     title: Workflow Best Practices
-    heading_html: >
-      [Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#single-cell** and share publicly with other users!
-         {: .alert.alert-success}
-      You can see shared workflows below, which are chains of tools that can be run together at the click of a button.
+    heading_html: > 
     content:
       - title_html: Label your workflows right!
         description_html: >
           <p>
+            [Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#single-cell** and share publicly with other users!
+               {: .alert.alert-success}
+            You can see shared workflows below, which are chains of tools that can be run together at the click of a button.
           If we label workflows well, it's easy for us to find useful workflows! Key labels we use are:
              - training (for workflows that correspond to the Galaxy Training Network's tutorials)
              - data interoperability
