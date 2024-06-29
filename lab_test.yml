@@ -29,6 +29,5 @@ footer_html: templates/footer.html
 #   2. Full URL to fetch globally centralized content
 sections:
   - 1_beginner.yml
-  - 2_intermediate.yml
   - 3_advanced.yml
   - 4_community.yml
