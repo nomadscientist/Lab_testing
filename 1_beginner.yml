@@ -19,8 +19,10 @@ tabs:
           </p>
         button_link1: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-intro/slides.html"
         button_html1: "Introductory slides"
+          <p>
         button_link2: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-trajectories/slides.html"
         button_html2: "Trajectories slides"
+          </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.html"
         button_link: "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
       - title_html: From tutorial data to real, messy, analytical decision-making
