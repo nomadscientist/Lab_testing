@@ -6,8 +6,8 @@ import re
 import argparse
 
 parser = argparse.ArgumentParser(description='Create installation yaml files from a Yaml file containing the panel_view/Toolkit data')
-parser.add_argument('--tk', action="store", dest='toolkit') # Toolkit.yaml file
-parser.add_argument('--yml-folder', action="store", dest='dest') # Folder containing the .yml and yml.lock containing the tools installed in the target instance
+parser.add_argument('--tk', action="store", dest='toolkit', help='Path of the toolkit.yaml file') # Toolkit.yaml file
+parser.add_argument('--yml-folder', action="store", dest='dest', help='Folder containing the yml files with tool installed in the target instance') # Folder containing the .yml and yml.lock containing the tools installed in the target instance
 args = parser.parse_args()
 
 print(args.toolkit)
