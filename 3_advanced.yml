@@ -56,7 +56,7 @@ tabs:
       - title_html: Galaxy {{ site_name }} support
         description_html: >
           <p>
-            Any user of Galaxy Australia can request support through an online form.
+            Any user of Galaxy {{ site_name }} can request support through an online form.
           </p>
         button_html: Request support
         button_link: /request/support
